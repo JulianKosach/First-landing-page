@@ -1,0 +1,435 @@
+body.pre-loaded #preloader {
+    -webkit-transform : translate3d(0,-100%,0);
+            transform : translate3d(0,-100%,0);
+    opacity : 0.2;
+    -webkit-transition : all 1s;
+            transition : all 1s;
+}
+
+#preloader {
+    position : fixed;
+    left : 0;
+    top : 0;
+    z-index : 999;
+    width : 100vw;
+    height : 100vh;
+    overflow : visible;
+    background-color : #333;
+}
+
+.cssload-thecube {
+    width : 150px;
+    height : 150px;
+    position : relative;
+    top : 50%;
+    left : 50%;
+    z-index : 1000;
+            transform : translate3d(-50%,-50%,0) rotateZ(45deg);
+         -o-transform : translate3d(-50%,-50%,0) rotateZ(45deg);
+        -ms-transform : translate3d(-50%,-50%,0) rotateZ(45deg);
+    -webkit-transform : translate3d(-50%,-50%,0) rotateZ(45deg);
+       -moz-transform : translate3d(-50%,-50%,0) rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+    position : relative;
+            transform : rotateZ(45deg);
+         -o-transform : rotateZ(45deg);
+        -ms-transform : rotateZ(45deg);
+    -webkit-transform : rotateZ(45deg);
+       -moz-transform : rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+    float : left;
+    width : 50%;
+    height : 50%;
+    position : relative;
+            transform : scale(1.1);
+         -o-transform : scale(1.1);
+        -ms-transform : scale(1.1);
+    -webkit-transform : scale(1.1);
+       -moz-transform : scale(1.1);
+}
+.cssload-thecube .cssload-cube:before {
+    content : '';
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    background-color : rgb(43,160,199);
+            animation : cssload-fold-thecube 1.56s infinite linear both;
+         -o-animation : cssload-fold-thecube 1.56s infinite linear both;
+        -ms-animation : cssload-fold-thecube 1.56s infinite linear both;
+    -webkit-animation : cssload-fold-thecube 1.56s infinite linear both;
+       -moz-animation : cssload-fold-thecube 1.56s infinite linear both;
+            transform-origin : 100% 100%;
+         -o-transform-origin : 100% 100%;
+        -ms-transform-origin : 100% 100%;
+    -webkit-transform-origin : 100% 100%;
+       -moz-transform-origin : 100% 100%;
+}
+.cssload-thecube .cssload-c2 {
+            transform : scale(1.1) rotateZ(90deg);
+         -o-transform : scale(1.1) rotateZ(90deg);
+        -ms-transform : scale(1.1) rotateZ(90deg);
+    -webkit-transform : scale(1.1) rotateZ(90deg);
+       -moz-transform : scale(1.1) rotateZ(90deg);
+}
+.cssload-thecube .cssload-c3 {
+            transform : scale(1.1) rotateZ(180deg);
+         -o-transform : scale(1.1) rotateZ(180deg);
+        -ms-transform : scale(1.1) rotateZ(180deg);
+    -webkit-transform : scale(1.1) rotateZ(180deg);
+       -moz-transform : scale(1.1) rotateZ(180deg);
+}
+.cssload-thecube .cssload-c4 {
+            transform : scale(1.1) rotateZ(270deg);
+         -o-transform : scale(1.1) rotateZ(270deg);
+        -ms-transform : scale(1.1) rotateZ(270deg);
+    -webkit-transform : scale(1.1) rotateZ(270deg);
+       -moz-transform : scale(1.1) rotateZ(270deg);
+}
+.cssload-thecube .cssload-c2:before {
+            animation-delay : 0.195s;
+         -o-animation-delay : 0.195s;
+        -ms-animation-delay : 0.195s;
+    -webkit-animation-delay : 0.195s;
+       -moz-animation-delay : 0.195s;
+}
+.cssload-thecube .cssload-c3:before {
+            animation-delay : 0.39s;
+         -o-animation-delay : 0.39s;
+        -ms-animation-delay : 0.39s;
+    -webkit-animation-delay : 0.39s;
+       -moz-animation-delay : 0.39s;
+}
+.cssload-thecube .cssload-c4:before {
+            animation-delay : 0.585s;
+         -o-animation-delay : 0.585s;
+        -ms-animation-delay : 0.585s;
+    -webkit-animation-delay : 0.585s;
+       -moz-animation-delay : 0.585s;
+}
+
+@keyframes cssload-fold-thecube {
+    0%,
+    10% {
+        -webkit-transform : perspective(333px) rotateX(-180deg);
+                transform : perspective(333px) rotateX(-180deg);
+        opacity : 0;
+    }
+    25%,
+    75% {
+        -webkit-transform : perspective(333px) rotateX(0deg);
+                transform : perspective(333px) rotateX(0deg);
+        opacity : 1;
+    }
+    90%,
+    100% {
+        -webkit-transform : perspective(333px) rotateY(180deg);
+                transform : perspective(333px) rotateY(180deg);
+        opacity : 0;
+    }
+}
+
+@-webkit-keyframes cssload-fold-thecube {
+    0%,
+    10% {
+        -webkit-transform : perspective(333px) rotateX(-180deg);
+        opacity : 0;
+    }
+    25%,
+    75% {
+        -webkit-transform : perspective(333px) rotateX(0deg);
+        opacity : 1;
+    }
+    90%,
+    100% {
+        -webkit-transform : perspective(333px) rotateY(180deg);
+        opacity : 0;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400|Open+Sans:300,400|Roboto:900&subset=cyrillic,cyrillic-ext');
+
+* {
+    margin : 0;
+    padding : 0;
+    -webkit-box-sizing : border-box;
+            box-sizing : border-box;
+    background-position : center;
+    background-repeat : no-repeat;
+    -webkit-transition : all 0.25s;
+            transition : all 0.25s;
+}
+:after,
+:before {
+    content : '';
+    display : block;
+    width : 100%;
+    height : 0;
+    clear : both;
+}
+
+sup:after,
+sup:before,
+a:after,
+a:before,
+br:after,
+br:before,
+img:after,
+img:before,
+span:after,
+span:before,
+table:after,
+table:before,
+td:after,
+td:before,
+tr:after,
+tr:before {
+    content : none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size : 1em;
+    font-weight : inherit;
+    text-align : center;
+    font-family : 'Merriweather';
+    font-weight : 400;
+}
+
+h3 {
+    font-family : 'Open Sans';
+    font-weight : 300;
+}
+
+body {
+    font-family : 'Open Sans', sans-serif;
+    font-size : 14px;
+    line-height : 20px;
+    font-weight : 400;
+    color : #fefefe;
+    background-color : #fff;
+}
+
+a {
+    text-decoration : none;
+    color : inherit;
+    outline : 0 !important;
+}
+
+a,
+button {
+    cursor : pointer;
+}
+
+button,
+input,
+textarea {
+    outline : none;
+    border : none;
+    margin : 0 5px;
+    vertical-align : middle;
+}
+
+input,
+textarea {
+    display : inline-block;
+    height : 40px;
+    border : 1px solid #d3dae1;
+    border-radius : 3px;
+    padding : 0 15px;
+    background : #fafafa;
+    color : #161d26;
+    margin : 5px;
+}
+
+button.btn-yellow,
+button.btn-blue {
+    border-radius : 3px;
+    height : 40px;
+    color : #fff;
+    font-family : 'Open Sans', sans-serif;
+    font-size : 14px;
+    line-height : 20px;
+    font-weight : 400;
+}
+
+button.btn-yellow {
+    background-color : #ffc80a;
+}
+
+h1 {
+    font-size : 46px;
+    line-height : 50px;
+}
+
+h2 {
+    font-size : 36px;
+    line-height : 40px;
+}
+
+h3 {
+    font-size : 30px;
+    line-height : 40px;
+}
+
+h4 {
+    font-size : 17px;
+    line-height : 20px;
+    color : #fff;
+}
+
+section {
+    width : 100%;
+    min-width : 970px;
+    overflow : hidden;
+    position : relative;
+    z-index : 2;
+    min-height : 600px;
+    height : 100vh;
+    background-size : cover !important;
+}
+section > div {
+    max-width : 970px;
+    position : relative;
+    z-index : 2;
+    height : 100%;
+    margin : 0 auto;
+}
+section > div > div {
+    width : 100%;
+    position : absolute;
+    height : 600px;
+    top : 50%;
+    margin-top : -300px;
+    z-index : 3;
+}
+
+#sec1:before {
+    position : absolute;
+    z-index : 2;
+    height : 100%;
+    background-image : url(img/pattern.png);
+}
+
+
+#menu {
+    display : none;
+}
+
+#sec1 {
+    background-image : url(img/bg-1.jpg);
+}
+#sec1 .menu {
+    width : 26px;
+    height : 20px;
+    float : left;
+    background-image : url(img/menu-btn-white.png);
+    margin-top : 20px;
+}
+#sec1 .menu:hover {
+    background-image : url(img/menu-btn-yellow.png);
+}
+#sec1 .logo {
+    background-image : url(img/logo.png);
+    width : 170px;
+    height : 60px;
+    margin : 0 auto;
+}
+#sec1 .phone {
+    float : right;
+    width : auto;
+    height : 30px;
+    margin-top : -45px;
+    font-size : 24px;
+    font-weight : 300;
+    line-height : 28px;
+}
+#sec1 h1 {
+    margin-top : 3px;
+}
+#sec1 h3 {
+    margin-top : 67px;
+}
+#sec1 .arrow {
+    position : relative;
+    z-index : 4;
+    width : 230px;
+    height : 60px;
+    float : left;
+    margin : 90px 0 0 565px;
+    padding : 8px 0;
+    border-radius : 3px 0 0 3px;
+    background-color : #122f5b;
+    color : #fff;
+}
+#sec1 .arrow:before {
+    position : absolute;
+    z-index : 4;
+    width : 970px;
+    height : 120px;
+    top : -40px;
+    left : -565px;
+    background-image : url(img/socket.png);
+}
+#sec1 .arrow:after {
+    position : absolute;
+    z-index : 4;
+    width : 0;
+    height : 0;
+    border : 30px solid transparent;
+    border-width : 30px 0 30px 20px;
+    border-right : 0;
+    top : 0;
+    right : -20px;
+    border-left-color : #122f5b;
+}
+#sec1 .arrow span {
+    font-size : 40px;
+    margin : 0 4px 0 13px;
+    font-weight : 300;
+}
+#sec1 .arrow p {
+    display : inline-block;
+    width : 140px;
+    height : 40px;
+    font-size : 14px;
+}
+
+#form1 {
+    width : 770px;
+    height : 80px;
+    position : relative;
+    z-index : 4;
+    margin : 250px auto 0;
+    padding : 15px 10px;
+    border-radius : 3px;
+    background-color : #fff;
+    -webkit-box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+            box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+}
+#form1 .form1-label {
+    display : inline-block;
+    float : left;
+    width : 255px;
+    padding : 5px 10px;
+}
+#form1 h4 {
+    color : #161d26;
+    text-align : left;
+}
+#form1 p {
+    color : #5d6978;
+}
+#form1 input {
+    width : 230px;
+    margin-right : 2px;
+}
+#form1 button {
+    width : 240px;
+}

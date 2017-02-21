@@ -1,0 +1,212 @@
+/* --------------------- #form1-thanks ------------------------ */
+
+#form1 .thanks {
+    display : none;
+    position : absolute;
+    z-index : 6;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    background-color : #fff;
+    text-align : center;
+    -webkit-transition : all 0s;
+            transition : all 0s;
+}
+
+#form1 .thanks h4 {
+    margin-top : 110px;
+}
+
+/* --------------------- #sec2 video-slider styles ------------------------ */
+
+#sec2 .bx-pager {
+    bottom : 25px;
+}
+
+#sec2 .bx-pager-item {
+    width : 20px;
+    height : 10px;
+}
+
+#sec2 .bx-pager-item a {
+    width : 10px;
+    height : 10px;
+    border : none;
+    border-radius : 5px;
+    background-color : #fff;
+}
+
+#sec2 .bx-pager-item a:hover,
+#sec2 .bx-pager-item a.active {
+    background-color : #ffc80a;
+}
+
+/* --------------------- #form2-thanks ------------------------ */
+
+#sec3-thanks {
+    display : none;
+    position : fixed;
+    z-index : 100;
+    top : 0;
+    left : 0;
+    min-height : 720px;
+    height : 100vh;
+    background-color : #fff;
+    background-image : url(../img/bg-3-mob.png);
+    background-size : 100% auto!important;
+    background-position : top;
+    text-align : center;
+    -webkit-transition : all 0s;
+            transition : all 0s;
+}
+
+#sec3-thanks:before {
+    position : absolute;
+    top : 50%;
+    left : 0;
+    z-index : 2;
+    height : 50%;
+    width : 100%;
+    background-image : url(../img/bg-3bt-mob.png);
+    background-size : 100% auto!important;
+    background-position : bottom;
+    background-repeat : no-repeat;
+}
+
+#sec3-thanks > div {
+    display : inline-block;
+    height : 75px;
+    position : absolute;
+    margin : 0;
+    top : 50%;
+    left : 50%;
+    -webkit-transform : translate3d(-50%,-50%,0);
+            transform : translate3d(-50%,-50%,0);
+}
+
+#sec3-thanks h2 {
+    color : #161d26;
+}
+
+#sec3-thanks h3 {
+    color : #5d6978;
+    margin : 12px 0;
+}
+
+/* --------------------- #form3-thanks ------------------------ */
+
+#sec10-thanks {
+    display : none;
+    position : fixed;
+    z-index : 100;
+    top : 0;
+    left : 0;
+    min-height : 720px;
+    height : 100vh;
+    background-color : #fff;
+    background-image : url(../img/bg-10-mob.png);
+    background-size : 100% auto!important;
+    background-position : top;
+    text-align : center;
+    -webkit-transition : all 0s;
+            transition : all 0s;
+}
+
+#sec10-thanks:before {
+    position : absolute;
+    top : 50%;
+    left : 0;
+    z-index : 2;
+    height : 50%;
+    width : 100%;
+    background-image : url(../img/bg-10bt-mob.png);
+    background-size : 100% auto!important;
+    background-position : bottom;
+    background-repeat : no-repeat;
+}
+
+#sec10-thanks > div {
+    display : inline-block;
+    height : 75px;
+    position : absolute;
+    margin : 0;
+    top : 50%;
+    left : 50%;
+    -webkit-transform : translate3d(-50%,-50%,0);
+            transform : translate3d(-50%,-50%,0);
+}
+
+#sec10-thanks h2 {
+    color : #161d26;
+}
+
+#sec10-thanks h3 {
+    color : #5d6978;
+    margin : 12px 0;
+}
+
+
+/* --------------------- #form4-thanks ------------------------ */
+
+#form4 .thanks {
+    display : none;
+    position : absolute;
+    z-index : 6;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    background-color : #fff;
+    -webkit-transition : all 0s;
+            transition : all 0s;
+}
+
+#form4 .thanks h4 {
+    margin : 130px 0 8px;
+}
+
+/* --------------------- #pop-up map ------------------------ */
+
+#pop-map {
+    display : none;
+    width : 100%;
+    min-width : 420px;
+    min-height : 720px;
+    height : 100vh;
+    position : fixed;
+    z-index : 30;
+    top : 0;
+    left : 0;
+    background-color : #fff;
+    -webkit-transition : all 0s;
+            transition : all 0s;
+}
+
+#pop-map a {
+    display : block;
+    width : 20px;
+    height : 20px;
+    margin : 60px auto 18px;
+    background-image : url(../img/close-blue.png);
+    -webkit-transition : all 0.25s;
+            transition : all 0.25s;
+}
+
+#pop-map a:hover {
+    cursor : pointer;
+    background-image : url(../img/close-yellow.png);
+}
+
+#pop-map p {
+    color : #5d6978;
+    text-align : center;
+    width : 100%;
+}
+
+#map {
+    width : 100%;
+    min-height : 540px;
+    height : 100vh;
+    margin-top : 42px;
+}

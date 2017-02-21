@@ -1,0 +1,1612 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400|Open+Sans:300,400|Roboto:900&subset=cyrillic,cyrillic-ext');
+/* line 14, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.maket {
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    background : url(..//img/sec2.png) no-repeat center center;
+    height : 100%;
+    opacity : 0.5;
+    z-index : 20;
+    margin-top : 0;
+}
+
+/* line 61, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+* {
+    margin : 0;
+    padding : 0;
+    -webkit-box-sizing : border-box;
+            box-sizing : border-box;
+    background-position : center;
+    background-repeat : no-repeat;
+    -webkit-transition : all 0.25s;
+            transition : all 0.25s;
+}
+
+/* line 64, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+:after,
+:before {
+    content : '';
+    display : block;
+    width : 100%;
+    height : 0;
+    clear : both;
+}
+
+/* line 65, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+sup:after,
+sup:before,
+a:after,
+a:before,
+br:after,
+br:before,
+img:after,
+img:before,
+span:after,
+span:before,
+table:after,
+table:before,
+td:after,
+td:before,
+tr:after,
+tr:before {
+    content : none;
+}
+
+/* line 66, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size : 1em;
+    font-weight : inherit;
+    text-align : center;
+    font-family : 'Merriweather';
+    font-weight : 400;
+}
+
+/* line 67, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+h3 {
+    font-family : 'Open Sans';
+    font-weight : 300;
+}
+
+/* line 68, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+body {
+    font-family : 'Open Sans', sans-serif;
+    font-size : 14px;
+    line-height : 20px;
+    font-weight : 400;
+    color : #fefefe;
+    background-color : #fff;
+}
+
+/* line 69, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+a {
+    text-decoration : none;
+    color : inherit;
+    outline : 0 !important;
+}
+
+/* line 70, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+a,
+button {
+    cursor : pointer;
+}
+
+/* line 71, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button,
+input,
+textarea {
+    outline : none;
+    border : none;
+    margin : 0 5px;
+    vertical-align : middle;
+}
+
+/* line 73, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input,
+textarea {
+    display : inline-block;
+    height : 40px;
+    border : 1px solid #d3dae1;
+    border-radius : 3px;
+    padding : 0 15px;
+    background : #fafafa;
+    color : #161d26;
+    margin : 5px;
+}
+
+/* line 84, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.arcticmodal-container,
+.arcticmodal-overlay {
+    position : fixed;
+    left : 0;
+    top : 0;
+    right : 0;
+    bottom : 0;
+    z-index : 1000;
+    transition : all 0s;
+}
+
+/* line 85, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.arcticmodal-container {
+    overflow : auto;
+    margin : 0;
+    padding : 0;
+    border : 0;
+    border-collapse : collapse;
+}
+
+/* line 86, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+:first-child + html .arcticmodal-container {
+    height : 100%;
+}
+
+/* line 87, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.arcticmodal-container_i {
+    margin : 0 auto;
+    height : 100%;
+}
+
+/* line 88, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.arcticmodal-container_i2 {
+    padding : 20px;
+    margin : 0;
+    border : 0;
+    vertical-align : middle;
+    text-align : center;
+    background-color : #fff;
+    border-radius : 3px;
+    color : #161d26;
+    font-size : 17px;
+    line-height : 20px;
+    font-family : 'Merriweather';
+    font-weight : 400;
+    width : 700px;
+    height : 100px;
+}
+
+/* line 89, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#hidden-box {
+    display : none;
+}
+
+/* line 90, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.error-input {
+    border : 1px solid red;
+}
+
+/* line 92, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input::-webkit-input-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* line 93, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input::-moz-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* Firefox 19+ */
+/* line 94, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input:-moz-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* Firefox 18- */
+/* line 95, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input::-ms-input-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/*Edge 12+*/
+/* line 96, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input:-ms-input-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* line 97, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input::-ms-clear {
+    display : none;
+}
+
+/* line 98, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+textarea::-webkit-input-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* line 99, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+textarea::-moz-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* Firefox 19+ */
+/* line 100, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+textarea:-moz-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* Firefox 18- */
+/* line 101, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+textarea::-ms-input-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/*Edge 12+*/
+/* line 102, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+textarea:-ms-input-placeholder {
+    font-size : 14px;
+    line-height : 20px;
+    color : #b9c1cb;
+    background-color : #fafafa;
+}
+
+/* line 104, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+input:hover,
+input:active,
+input:focus,
+textarea:hover,
+textarea:active,
+textarea:focus {
+    border-color : #ffc80a;
+}
+
+/* line 109, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button.btn-yellow,
+button.btn-blue {
+    border-radius : 3px;
+    height : 40px;
+    color : #fff;
+}
+
+/* line 115, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button.btn-yellow {
+    background-color : #ffc80a;
+}
+
+/* line 119, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button.btn-yellow:hover {
+    -webkit-box-shadow : inset 0 -2px #e59900;
+            box-shadow : inset 0 -2px #e59900;
+}
+
+/* line 124, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button.btn-yellow:active {
+    -webkit-box-shadow : none;
+            box-shadow : none;
+    background-color : #e69900;
+}
+
+/* line 130, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button.btn-blue {
+    background-color : #2680bf;
+}
+
+/* line 134, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button.btn-blue:hover {
+    -webkit-box-shadow : inset 0 -2px #1c578d;
+            box-shadow : inset 0 -2px #1c578d;
+}
+
+/* line 139, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+button.btn-blue:active {
+    -webkit-box-shadow : none;
+            box-shadow : none;
+    background-color : #1c578d;
+}
+
+/* line 145, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+label > input[type='radio'],
+label > input[type='checkbox'] {
+    width : 0;
+    height : 0;
+    display : inline-block;
+}
+
+/* line 151, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.form-label {
+    display : inline-block;
+    position : relative;
+    z-index : 4;
+    height : 40px;
+    min-width : 80px;
+    padding : 9px 11px 9px 30px;
+    margin : 5px;
+    color : #5d6978;
+    border : 1px solid #d3dae1;
+    border-radius : 3px;
+    text-align : left;
+    cursor : pointer;
+}
+/* line 164, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.form-label:hover,
+.form-label.checked {
+    background-color : #ffc80a;
+    border-color : #ffc80a;
+    color : #161d26;
+}
+/* line 169, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.form-label:before {
+    height : 18px;
+    width : 18px;
+    position : absolute;
+    z-index : 5;
+    top : 9px;
+    left : 9px;
+    border : 1px solid #d3dae1;
+    border-radius : 3px;
+    cursor : pointer;
+    background-color : #fefefe;
+}
+/* line 181, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.form-label.checked:before {
+    border-color : #2680bf;
+    background-color : #2680bf;
+    background-image : url(../img/check.png);
+    background-repeat : no-repeat no-repeat;
+    background-position : center center;
+}
+
+/* line 190, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+h1 {
+    font-size : 46px;
+    line-height : 50px;
+}
+
+/* line 195, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+h2 {
+    font-size : 36px;
+    line-height : 40px;
+}
+
+/* line 200, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+h3 {
+    font-size : 30px;
+    line-height : 40px;
+}
+
+/* line 205, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+h4 {
+    font-size : 17px;
+    line-height : 20px;
+    color : #fff;
+}
+
+/* line 211, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+section {
+    width : 100%;
+    min-width : 970px;
+    overflow : hidden;
+    position : relative;
+    z-index : 2;
+    min-height : 600px;
+    height : 100vh;
+    background-size : cover !important;
+}
+/* line 44, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+section > div {
+    max-width : 970px;
+    position : relative;
+    z-index : 2;
+    height : 100%;
+    margin : 0 auto;
+}
+/* line 50, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+section > div > div {
+    width : 100%;
+    position : absolute;
+    height : 600px;
+    top : 50%;
+    margin-top : -300px;
+    z-index : 3;
+}
+
+/* line 215, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1:before,
+#sec2:before,
+#sec3:before,
+#sec10:before,
+#sec12:before,
+footer:before {
+    position : absolute;
+    z-index : 2;
+    height : 100%;
+    background-image : url(../img/pattern.png);
+}
+
+/* line 227, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+a.btn-play {
+    position : absolute;
+    z-index : 8;
+    width : 100px;
+    height : 70px;
+    background-image : url(../img/video-play.png);
+}
+
+/* --------------------- #menu ------------------------ */
+/* line 239, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#menu {
+    display : none;
+    position : fixed;
+    z-index : 15;
+    top : 0;
+    left : 0;
+    width : 480px;
+    height : 100vh;
+    background-color : #122f5b;
+    -webkit-box-shadow : 30px 0 50px rgba(0, 0, 0, 0.25);
+            box-shadow : 30px 0 50px rgba(0, 0, 0, 0.25);
+    transition : all 0s;
+}
+/* line 251, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#menu:before {
+    position : absolute;
+    z-index : 15;
+    height : 100%;
+    width : 100%;
+    background-image : url(../img/pattern.png);
+}
+/* line 258, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#menu ul {
+    list-style : none;
+    width : 100%;
+    height : 100%;
+    position : relative;
+    z-index : 16;
+}
+/* line 265, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#menu li a {
+    display : inline-block;
+    width : 100%;
+    height : 20px;
+    color : #fff;
+    font-size : 18px;
+    line-height : 20px;
+    margin : 20px 0;
+    text-align : center;
+}
+/* line 274, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#menu li a:hover {
+    color : #ffc80a;
+    cursor : pointer;
+}
+/* line 278, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#menu li a[href='#'] {
+    display : block;
+    width : 20px;
+    height : 20px;
+    margin : 60px auto 17px;
+    content : url(../img/close-white.png);
+}
+/* line 284, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#menu li a[href='#']:hover {
+    content : url(../img/close-yellow.png);
+}
+
+/* -------- sec1 -------- */
+/* line 295, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 {
+    background-image : url(../img/bg-1.jpg);
+}
+/* line 298, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .menu {
+    width : 26px;
+    height : 20px;
+    float : left;
+    background-image : url(../img/menu-btn-white.png);
+    margin-top : 20px;
+}
+/* line 304, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .menu:hover {
+    background-image : url(../img/menu-btn-yellow.png);
+}
+/* line 309, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .logo {
+    background-image : url(../img/logo.png);
+    width : 170px;
+    height : 60px;
+    margin : 0 auto;
+}
+/* line 316, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .phone {
+    float : right;
+    width : auto;
+    height : 30px;
+    margin-top : -45px;
+    font-size : 24px;
+    font-weight : 300;
+    line-height : 28px;
+}
+/* line 326, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 h1 {
+    margin-top : 3px;
+}
+/* line 330, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 h3 {
+    margin-top : 67px;
+}
+/* line 334, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .arrow {
+    position : relative;
+    z-index : 4;
+    width : 230px;
+    height : 60px;
+    float : left;
+    margin : 90px 0 0 565px;
+    padding : 8px 0;
+    border-radius : 3px 0 0 3px;
+    background-color : #122f5b;
+    color : #fff;
+}
+/* line 345, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .arrow:before {
+    position : absolute;
+    z-index : 4;
+    width : 970px;
+    height : 120px;
+    top : -40px;
+    left : -565px;
+    background-image : url(../img/socket.png);
+}
+/* line 354, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .arrow:after {
+    position : absolute;
+    z-index : 4;
+    width : 0;
+    height : 0;
+    border : 30px solid transparent;
+    border-width : 30px 0 30px 20px;
+    border-right : 0;
+    top : 0;
+    right : -20px;
+    border-left-color : #122f5b;
+}
+/* line 367, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .arrow span {
+    font-size : 40px;
+    margin : 0 4px 0 13px;
+    font-weight : 300;
+}
+/* line 373, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec1 .arrow p {
+    display : inline-block;
+    width : 140px;
+    height : 40px;
+    font-size : 14px;
+}
+
+/* line 382, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#form1 {
+    width : 770px;
+    height : 80px;
+    position : relative;
+    z-index : 4;
+    margin : 250px auto 0;
+    padding : 15px 10px;
+    border-radius : 3px;
+    background-color : #fff;
+    -webkit-box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+            box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+}
+/* line 393, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#form1 .form1-label {
+    display : inline-block;
+    float : left;
+    width : 255px;
+    padding : 5px 10px;
+}
+/* line 399, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#form1 h4 {
+    color : #161d26;
+    text-align : left;
+}
+/* line 403, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#form1 p {
+    color : #5d6978;
+}
+/* line 406, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#form1 input {
+    width : 230px;
+    margin-right : 2px;
+}
+/* line 410, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#form1 button {
+    width : 240px;
+}
+
+/*sec1*/
+/* ------------- sec2 --------------- */
+/* line 421, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 {
+    background-image : url(../img/white.gif);
+}
+/* line 423, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 ul {
+    list-style : none;
+    width : 900px;
+    height : 540px;
+    margin : 0 35px;
+    position : relative;
+    z-index : 4;
+}
+/* line 430, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 ul:after {
+    margin : -6px auto 0;
+    width : 100%;
+    -webkit-box-sizing : border-box;
+            box-sizing : border-box;
+    border : 1px solid #fff;
+    border-radius : 1px;
+}
+/* line 439, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 h2 {
+    margin : -3px 0 3px;
+}
+/* line 441, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 h2:before {
+    position : absolute;
+    z-index : 5;
+    top : -50px;
+    left : 462px;
+    width : 46px;
+    height : 30px;
+    background-image : url(../img/big-quote.png);
+}
+/* line 451, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 a {
+    position : absolute;
+    z-index : 8;
+}
+/* line 455, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 li,
+#sec2 h4,
+#sec2 p {
+    display : none;
+}
+/* line 458, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-1,
+#sec2 .sld-2,
+#sec2 .sld-3,
+#sec2 .sld-4,
+#sec2 .sld-5 {
+    display : inline-block;
+    height : 500px;
+}
+/* line 462, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-video {
+    width : 560px;
+    height : 340px;
+    position : absolute;
+    z-index : 5;
+    background-image : url(../img/white.gif);
+    background-size : cover;
+    cursor : pointer;
+    -webkit-box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+            box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+    transition : all 0s;
+}
+/* line 473, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-video:hover {
+    transition : opacity 0.25s;
+}
+/* line 476, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-video > .btn-play {
+    display : none;
+    top : 50%;
+    left : 50%;
+    -webkit-transform : translate3d(-50%, -50%, 0);
+            transform : translate3d(-50%, -50%, 0);
+}
+/* line 484, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-1 .sld-video,
+#sec2 .sld-5 .sld-video {
+    width : 75px;
+    height : 240px;
+    opacity : 0.33;
+    top : 80px;
+}
+/* line 489, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-1 .sld-video:hover,
+#sec2 .sld-5 .sld-video:hover {
+    opacity : 1;
+}
+/* line 493, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-1 .sld-video {
+    left : -35px;
+}
+/* line 496, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-5 .sld-video {
+    left : 860px;
+}
+/* line 499, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-2 .sld-video,
+#sec2 .sld-4 .sld-video {
+    width : 130px;
+    height : 290px;
+    opacity : 0.66;
+    top : 55px;
+    z-index : 6;
+}
+/* line 505, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-2 .sld-video:hover,
+#sec2 .sld-4 .sld-video:hover {
+    opacity : 1;
+}
+/* line 509, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-2 .sld-video {
+    left : 40px;
+}
+/* line 512, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-4 .sld-video {
+    left : 730px;
+}
+/* line 515, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-3 .sld-video {
+    width : 560px;
+    height : 340px;
+    z-index : 7;
+    left : 170px;
+    top : 30px;
+    cursor : default;
+}
+/* line 522, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-3 .sld-video > .btn-play {
+    display : block;
+}
+/* line 526, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-logo {
+    position : absolute;
+    z-index : 8;
+    top : 382px;
+    width : 120px;
+    height : 120px;
+    background-image : url(../img/white.gif);
+    opacity : 0.1;
+    cursor : pointer;
+    transition : all 0s;
+}
+/* line 536, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-logo:hover {
+    transition : opacity 0.25s;
+}
+/* line 540, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-1 .sld-logo {
+    left : 30px;
+}
+/* line 543, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-2 .sld-logo {
+    left : 210px;
+}
+/* line 546, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-3 .sld-logo {
+    left : 390px;
+    cursor : default;
+}
+/* line 550, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-4 .sld-logo {
+    left : 570px;
+}
+/* line 553, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-5 .sld-logo {
+    left : 750px;
+}
+/* line 556, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-logo:hover,
+#sec2 .sld-3 .sld-logo {
+    opacity : 1;
+    -webkit-box-shadow : inset 0 -4px #eeb906;
+            box-shadow : inset 0 -4px #eeb906;
+}
+/* line 561, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-3 h4,
+#sec2 .sld-3 p {
+    position : absolute;
+    z-index : 5;
+    display : inline-block;
+    width : 100%;
+    height : auto;
+    left : 0;
+    text-align : center;
+}
+/* line 570, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-3 h4 {
+    top : 520px;
+}
+/* line 573, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec2 .sld-3 p {
+    top : 541px;
+}
+
+/* line 578, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sld-btn-left,
+#sld-btn-right {
+    width : 35px;
+    height : 120px;
+    top : 420px;
+}
+
+/* line 584, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sld-btn-left {
+    left : 0;
+    background-image : url(../img/left-white.png);
+    background-position : left;
+}
+/* line 588, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sld-btn-left:hover {
+    background-image : url(../img/left-yellow.png);
+}
+
+/* line 593, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sld-btn-right {
+    left : 935px;
+    background-image : url(../img/right-white.png);
+    background-position : right;
+}
+/* line 597, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sld-btn-right:hover {
+    background-image : url(../img/right-yellow.png);
+}
+
+/*sec2*/
+/* ------------- sec3 --------------- */
+/* line 607, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 {
+    background-image : url(../img/white.gif);
+    text-align : center;
+}
+/* line 610, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 > div > div {
+    border-radius : 3px;
+    background-color : #fff;
+    -webkit-box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+            box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+}
+/* line 617, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 h2,
+#sec3 h4 {
+    color : #161d26;
+    margin-top : 37px;
+}
+/* line 622, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 h3 {
+    color : #5d6978;
+    font-size : 20px;
+    line-height : 30px;
+    margin : 7px 0;
+}
+/* line 627, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 h3:after {
+    width : 118px;
+    border : 1px solid #ffc80a;
+    margin : 15px auto -6px;
+}
+/* line 634, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 h4 {
+    margin : 34px 0 6px;
+}
+/* line 638, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 input[name='name'] {
+    width : 360px;
+}
+/* line 642, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 input[name='phone'] {
+    width : 230px;
+}
+/* line 646, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec3 button {
+    width : 140px;
+}
+
+/*sec3*/
+/* ------------- sec4 --------------- */
+/* line 654, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.video-content {
+    width : 560px;
+    height : 340px;
+    float : left;
+    position : relative;
+    z-index : 4;
+    background-image : url(../img/white.gif);
+    background-size : cover;
+    margin : 130px 40px 130px 0;
+    -webkit-box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+            box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* line 667, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content {
+    width : 370px;
+    height : 520px;
+    display : inline-block;
+    float : left;
+    position : relative;
+    z-index : 4;
+}
+/* line 674, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content > div {
+    width : 170px;
+    height : 222px;
+    margin : 24px 0;
+    border-top : 2px solid #ffc80a;
+    border-bottom : 2px solid #ffc80a;
+}
+/* line 681, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content h2,
+.text-content p,
+.text-content span {
+    display : inline-block;
+}
+/* line 684, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content h2 {
+    width : 350px;
+    color : #161d26;
+    margin : 22px 0 0;
+    text-align : left;
+}
+/* line 690, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content p {
+    color : #5d6978;
+}
+/* line 693, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content span {
+    font-family : 'Roboto';
+    font-size : 140px;
+    font-weight : 900;
+    color : #e5eaee;
+    margin : 101px 0 0 -5px;
+}
+/* line 700, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content div > p {
+    margin : 26px 0 0;
+    width : 350px;
+    height : 80px;
+}
+/* line 705, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content > p:nth-of-type(1) {
+    margin : 10px 0 0 120px;
+}
+/* line 706, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content > p:nth-of-type(1):before {
+    content : url(../img/doc.png);
+    position : absolute;
+    z-index : 5;
+    top : 439px;
+    left : 0;
+    height : 100px;
+    width : 100px;
+}
+/* line 717, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content > p:nth-of-type(2),
+.text-content > p:nth-of-type(3) {
+    color : #161d26;
+    margin : 10px 0 0 150px;
+}
+/* line 718, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content > p:nth-of-type(2):before,
+.text-content > p:nth-of-type(3):before {
+    position : absolute;
+    z-index : 5;
+    left : 120px;
+    width : 20px;
+    height : 20px;
+    border-radius : 3px;
+    background-color : #2680bf;
+    background-image : url(../img/check.png);
+    background-repeat : no-repeat no-repeat;
+    background-position : center center;
+}
+/* line 734, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content > p:nth-of-type(2):before {
+    top : 475px;
+}
+/* line 739, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.text-content > p:nth-of-type(3):before {
+    top : 505px;
+}
+
+/* line 745, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+.btn-play {
+    top : 135px;
+    left : 230px;
+}
+
+/* line 751, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 h3 {
+    color : #5d6978;
+    font-size : 20px;
+    line-height : 30px;
+}
+
+/* line 756, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 span {
+    margin : 91px 0 0 -5px;
+}
+
+/* line 759, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 > div > div > h2 {
+    color : #161d26;
+    margin : -5px 0 7px;
+}
+
+/* line 763, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 .video-content {
+    margin : 116px 40px 70px 0;
+}
+
+/* line 766, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 .text-content {
+    margin-top : -4px;
+}
+/* line 768, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 .text-content h2 {
+    margin : 26px 0 0;
+}
+/* line 771, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 .text-content div > p {
+    margin : 22px 0 0;
+}
+/* line 774, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 .text-content > p:nth-of-type(1) {
+    margin : 25px 0 0 120px;
+}
+/* line 775, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 .text-content > p:nth-of-type(1):before {
+    top : 429px;
+}
+/* line 781, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec4 .text-content > p:nth-of-type(2):before {
+    top : 480px;
+}
+
+/* line 789, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec5 .video-content,
+#sec7 .video-content,
+#sec9 .video-content {
+    margin : 130px 0 130px 40px;
+}
+
+/* ------------- sec6 --------------- */
+/* line 799, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec6 .text-content > p:nth-of-type(1),
+#sec8 .text-content > p:nth-of-type(1) {
+    margin : 25px 0 0 120px;
+}
+
+/* line 803, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec6 .text-content > p:nth-of-type(2):before,
+#sec8 .text-content > p:nth-of-type(2):before {
+    top : 490px;
+}
+
+/* ------------- sec7 --------------- */
+/* line 815, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec7 .text-content h2,
+#sec8 .text-content h2,
+#sec9 .text-content h2 {
+    margin : 26px 0 0;
+}
+
+/* line 818, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec7 .text-content div > p,
+#sec8 .text-content div > p,
+#sec9 .text-content div > p {
+    margin : 22px 0 0;
+}
+
+/* ------------- sec10 --------------- */
+/* line 827, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 {
+    background-image : url(../img/white.gif);
+}
+/* line 829, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 > div > div {
+    width : 830px;
+    margin : -300px 70px;
+    border-radius : 3px;
+    background-color : #fff;
+    -webkit-box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+            box-shadow : 0 30px 50px rgba(0, 0, 0, 0.25);
+}
+/* line 837, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 h2,
+#sec10 h4 {
+    color : #161d26;
+    margin-top : 35px;
+}
+/* line 841, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 h3 {
+    color : #5d6978;
+    font-size : 20px;
+    line-height : 30px;
+    margin : 9px 0;
+}
+/* line 846, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 h3:after {
+    width : 118px;
+    border : 1px solid #ffc80a;
+    margin : 25px auto -6px;
+}
+/* line 852, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 form {
+    text-align : center;
+}
+/* line 855, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 h4 {
+    margin : 34px 0 6px;
+}
+/* line 858, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 .form-label[data-info='w245'] {
+    width : 245px;
+}
+/* line 861, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 .form-label[data-info='w240'] {
+    width : 240px;
+}
+/* line 864, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 input[name='name'] {
+    width : 360px;
+}
+/* line 867, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 input[name='phone'] {
+    width : 230px;
+}
+/* line 870, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec10 button {
+    width : 140px;
+}
+
+/* ------------- sec11 --------------- */
+/* line 880, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 h2 {
+    color : #161d26;
+    margin : -3px 0 3px;
+}
+
+/* line 884, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 .ul-wrap {
+    display : inline-block;
+    float : left;
+    width : 900px;
+    height : 520px;
+    overflow : hidden;
+}
+
+/* line 891, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 ul {
+    display : inline-block;
+    float : left;
+    width : 10000px;
+    height : 520px;
+    list-style : none;
+}
+
+/* line 898, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 li {
+    display : inline-block;
+    float : left;
+    width : 300px;
+    height : 520px;
+}
+/* line 903, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 li div {
+    display : block;
+    width : 300px;
+    height : 180px;
+    position : relative;
+    z-index : 5;
+}
+/* line 909, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 li div img {
+    display : block;
+    position : absolute;
+    top : 90px;
+    left : 150px;
+    z-index : 6;
+    -webkit-transform : translate3d(-50%, -50%, 0);
+            transform : translate3d(-50%, -50%, 0);
+}
+/* line 918, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 li div:nth-of-type(2) {
+    height : 160px;
+}
+/* line 920, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 li div:nth-of-type(2) p {
+    margin-top : 119px;
+}
+/* line 923, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 li div:nth-of-type(2) img {
+    top : 70px;
+}
+
+/* line 929, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 p {
+    display : inline-block;
+    width : 100%;
+    height : 20px;
+    text-align : center;
+    color : #5d6978;
+    margin : 139px 0 11px;
+}
+
+/* line 937, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec11 a {
+    display : inline-block;
+    float : left;
+    width : 35px;
+    height : 510px;
+    margin-top : 10px;
+}
+
+/* line 946, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#comp-btn-left {
+    background-image : url(../img/left-blue.png);
+    background-position : left;
+}
+/* line 949, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#comp-btn-left:hover {
+    background-image : url(../img/left-yellow.png);
+}
+
+/* line 953, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#comp-btn-right {
+    background-image : url(../img/right-blue.png);
+    background-position : right;
+}
+/* line 956, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#comp-btn-right:hover {
+    background-image : url(../img/right-yellow.png);
+}
+
+/* ------------- sec12 --------------- */
+/* line 963, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 {
+    background-image : url(../img/white.gif);
+}
+/* line 965, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 h2 {
+    margin : -3px 0 3px;
+}
+/* line 968, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 a {
+    height : 450px;
+    width : 40px;
+    display : inline-block;
+    float : left;
+}
+/* line 974, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 ul {
+    list-style : none;
+    width : 890px;
+    height : 560px;
+    display : inline-block;
+    float : left;
+    position : relative;
+    z-index : 5;
+}
+/* line 982, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 ul div {
+    width : auto;
+    min-width : 320px;
+    max-width : 870px;
+    height : 60px;
+    padding : 20px;
+    text-align : center;
+    border-radius : 3px;
+    background-color : #fff;
+    display : none;
+}
+/* line 994, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 li {
+    display : none;
+    width : 290px;
+    height : 100%;
+    transition : all 0s;
+}
+/* line 1000, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 img {
+    margin : 45px 11px;
+    cursor : pointer;
+    opacity : 0.5;
+}
+/* line 1004, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 img:hover {
+    opacity : 1;
+}
+/* line 1008, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-left,
+#sec12 .lead-center,
+#sec12 .lead-right {
+    display : inline-block;
+}
+/* line 1011, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-left {
+    float : left;
+}
+/* line 1014, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-right {
+    float : right;
+}
+/* line 1017, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center {
+    width : 310px;
+}
+/* line 1019, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center img {
+    width : 290px;
+    height : 390px;
+    margin : 30px 10px;
+    opacity : 1;
+}
+/* line 1025, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center:after {
+    width : 0;
+    height : 0;
+    position : absolute;
+    z-index : 6;
+    top : 430px;
+    left : 435px;
+    border-left : 10px solid transparent;
+    border-right : 10px solid transparent;
+    border-bottom : 10px solid #fff;
+}
+/* line 1036, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center h4,
+#sec12 .lead-center h4 + p {
+    display : inline-block;
+    width : 710px;
+}
+/* line 1040, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center div {
+    display : inline-block;
+    position : absolute;
+    z-index : 6;
+    top : 440px;
+    left : 50%;
+    -webkit-transform : translate3d(-50%, 0, 0);
+            transform : translate3d(-50%, 0, 0);
+}
+/* line 1048, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center div p {
+    display : inline-block;
+    min-width : 220px;
+    text-align : center;
+    float : left;
+    width : auto;
+    white-space : nowrap;
+    height : 20px;
+    color : #5d6978;
+    margin : 0 33px;
+}
+/* line 1059, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center div:before,
+#sec12 .lead-center div:after {
+    display : inline-block;
+    float : left;
+    width : 23px;
+    height : 15px;
+    clear : none;
+}
+/* line 1066, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center div:before {
+    content : url(../img/sm-quote-open.png);
+    margin : 0 -23px 5px 0;
+}
+/* line 1070, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 .lead-center div:after {
+    content : url(../img/sm-quote-close.png);
+    margin : 5px 0 0 -23px;
+}
+/* line 1076, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 h4 {
+    display : none;
+    margin : 65px -200px 0;
+}
+/* line 1080, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec12 h4 + p {
+    display : none;
+    text-align : center;
+    margin : 0 -200px 0;
+}
+
+/* line 1086, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#lead-btn-left {
+    background-image : url(../img/left-white.png);
+    background-position : left;
+}
+/* line 1089, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#lead-btn-left:hover {
+    background-image : url(../img/left-yellow.png);
+}
+
+/* line 1093, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#lead-btn-right {
+    background-image : url(../img/right-white.png);
+    background-position : right;
+}
+/* line 1096, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#lead-btn-right:hover {
+    background-image : url(../img/right-yellow.png);
+}
+
+/* ------------- sec13 --------------- */
+/* line 1104, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 .container {
+    position : absolute;
+    z-index : 3;
+    height : 600px;
+    width : 485px;
+    top : 50%;
+    left : 50%;
+    padding-top : 98px;
+    -webkit-transform : translate3d(-100%, -50%, 0);
+            transform : translate3d(-100%, -50%, 0);
+}
+
+/* line 1115, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13:before {
+    content : url(../img/location.png);
+    width : 120px;
+    height : 204px;
+    position : absolute;
+    z-index : 1;
+    top : 50%;
+    left : 50%;
+    -webkit-transform : translate3d(-550px, -300px, 0);
+            transform : translate3d(-550px, -300px, 0);
+}
+
+/* line 1126, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 a {
+    color : #2680bf;
+    text-decoration : underline;
+}
+/* line 1129, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 a:hover {
+    color : #ffc80a;
+}
+
+/* line 1133, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 h3,
+#sec13 h4 {
+    color : #161d26;
+    text-align : left;
+}
+
+/* line 1137, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 h3 {
+    margin : 9px 0 11px;
+}
+
+/* line 1140, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 p {
+    color : #5d6978;
+}
+
+/* line 1143, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 form {
+    margin-top : 82px;
+    position : relative;
+    z-index : 4;
+}
+
+/* line 1148, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 h4 {
+    margin-bottom : 15px;
+}
+
+/* line 1151, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 input,
+#sec13 textarea {
+    margin-left : 0;
+    width : 370px;
+}
+
+/* line 1155, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 textarea {
+    height : 160px;
+    padding : 8px 15px;
+}
+
+/* line 1159, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#sec13 input[name='phone'],
+#sec13 button {
+    width : 180px;
+}
+
+/* line 1164, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#map {
+    position : absolute;
+    z-index : 5;
+    width : 50%;
+    height : 100%;
+    top : 0;
+    left : 50%;
+    background-color : #eee;
+}
+/* line 1172, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+#map > div {
+    margin-top : 0;
+}
+
+/* ------------- footer --------------- */
+/* line 1179, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer {
+    height : 100px;
+    position : relative;
+    z-index : 2;
+    background-color : #122f5b;
+}
+/* line 1184, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer > div {
+    height : 100%;
+    width : 970px;
+    margin : 0 auto;
+    position : relative;
+    z-index : 3;
+}
+/* line 1191, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer img:nth-of-type(1) {
+    margin : 20px 0;
+    float : left;
+}
+/* line 1195, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer p,
+footer a {
+    position : absolute;
+    z-index : 4;
+    left : 30%;
+    display : inline-block;
+    width : 40%;
+    text-align : center;
+}
+/* line 1203, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer p {
+    top : 28px;
+}
+/* line 1206, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer a {
+    top : 49px;
+    font-size : 12px;
+    color : #2680bf;
+    text-decoration : underline;
+}
+/* line 1211, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer a:hover {
+    color : #ffc80a;
+}
+/* line 1215, E:/WebDevelopment/WebDone/CASHE/TransEnergoGlavStroy/code/src/desktop/css/sass/style.scss */
+footer img:nth-of-type(2) {
+    margin : 27.5px 0;
+    float : right;
+}
+
+/*# sourceMappingURL=style.css.map */
